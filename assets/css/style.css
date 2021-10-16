@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+#main{
+    width: 98%;
+    height: 2440px;
+    background-color: #eeeeee;
+    margin: 40px 1%;
+    border-radius: 10px;
+}
+#main #title h1{
+    font-size: 37px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+#main #title p{
+    letter-spacing: 0.5px;
+    color: #5b5b5b;
+    margin-bottom: 20px;
+}
+
+#img-div{
+    width: 1510px;
+    height: 690px;
+    margin: 0 auto;
+    background-color: #fff;
+    position: relative;
+}
+#img-div #img-div-one{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#img-div #img-div-one #img-caption p{
+   color: #888888;
+   padding: 15px;
+   font-weight: 300;
+}
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    color: #3f3f3f;
+} 
+
+#tribute-info h4{
+    color: #333333;
+    margin: 60px auto;
+    font-size: 18px;
+}
+#tribute-info .list-info li{
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+#tribute-info .list-info li::marker{
+    font-size: 20px;
+    color: black;
+}
+#tribute-info .italicized p{
+    font-style: italic;
+    color: #333;
+    line-height: 1.6;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+#tribute-info .italicized .box{
+    margin: 15px auto;
+}
+#tribute-info .italicized .box2{
+    margin-bottom: 60px;
+}
+#tribute-info .italicized .box2 a{
+   color: #807198;
+}
+#tribute-link {
+    font-size: 18px;
+    font-weight: 600;
+}
+
